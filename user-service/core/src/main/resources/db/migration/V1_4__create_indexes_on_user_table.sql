@@ -1,0 +1,1 @@
+CREATE INDEX idx_user_country ON users.user USING BTREE ((data->>'country'));
