@@ -1,7 +1,7 @@
-package com.example.internalmicroservice.controller;
+package com.luxtest.internalmicroservice.controller;
 
-import com.luxtest.userapispringbootstarter.api.UserClientApi;
-import com.luxtest.userapispringbootstarter.model.User;
+import com.luxtest.userclientspringbootstarter.client.UserClientApi;
+import com.luxtest.userclientspringbootstarter.model.User;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

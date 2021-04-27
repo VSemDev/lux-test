@@ -1,4 +1,4 @@
-package com.luxtest.userapispringbootstarter.model;
+package com.luxtest.userclientspringbootstarter.model;
 
 import lombok.Data;
 

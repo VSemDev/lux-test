@@ -1,7 +1,7 @@
-package com.luxtest.userapispringbootstarter.api.fallback;
+package com.luxtest.userclientspringbootstarter.client.fallback;
 
-import com.luxtest.userapispringbootstarter.api.UserClientApi;
-import com.luxtest.userapispringbootstarter.model.User;
+import com.luxtest.userclientspringbootstarter.client.UserClientApi;
+import com.luxtest.userclientspringbootstarter.model.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;

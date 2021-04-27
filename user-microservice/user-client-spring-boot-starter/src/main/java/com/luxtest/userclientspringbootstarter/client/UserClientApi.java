@@ -1,7 +1,8 @@
-package com.luxtest.userapispringbootstarter.api;
+package com.luxtest.userclientspringbootstarter.client;
 
-import com.luxtest.userapispringbootstarter.api.fallback.UserClientApiFallback;
-import com.luxtest.userapispringbootstarter.model.User;
+import com.luxtest.userclientspringbootstarter.api.UserApi;
+import com.luxtest.userclientspringbootstarter.client.fallback.UserClientApiFallback;
+import com.luxtest.userclientspringbootstarter.model.User;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.context.annotation.Primary;
 import org.springframework.http.ResponseEntity;
@@ -16,7 +17,7 @@ import java.util.List;
         fallback = UserClientApiFallback.class
 )
 @Primary
-public interface UserClientApi {
+public interface UserClientApi extends UserApi<User> {
 
     @GetMapping
     ResponseEntity<List<User>> getUsersByCountry(@RequestParam String country);

@@ -1,6 +1,6 @@
-package com.luxtest.userapispringbootstarter;
+package com.luxtest.userclientspringbootstarter;
 
-import com.luxtest.userapispringbootstarter.api.UserClientApi;
+import com.luxtest.userclientspringbootstarter.client.UserClientApi;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.openfeign.EnableFeignClients;

@@ -1,5 +1,6 @@
 package com.luxtest.userservice.controller;
 
+import com.luxtest.userclientspringbootstarter.api.UserApi;
 import com.luxtest.userservice.model.User;
 import com.luxtest.userservice.service.UserService;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/users")
-public class UserController {
+public class UserController implements UserApi<User> {
 
     private final UserService userService;
 

@@ -1,4 +1,4 @@
-package com.example.internalmicroservice;
+package com.luxtest.internalmicroservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,4 +9,5 @@ public class InternalMicroserviceApplication {
     public static void main(String[] args) {
         SpringApplication.run(InternalMicroserviceApplication.class, args);
     }
+
 }
